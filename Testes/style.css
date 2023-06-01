@@ -1,40 +1,11 @@
-body{
-    display: grid;
-    place-items: center;
-    place-content: center;
+.aba{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-h1{
-    text-align: center;
-}
-
-nav{
-    color: #3385FF;
-}
-a{
-    color: #3385FF;
-}
-
-img.a{
-    width: 3%;
-    height: 3%;
-    padding-right: 1%;
-}
-
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-
-  .centered {
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  img.resize {
-    width:100%; /* you can use % */
-    height: auto;
+.ada{
+    padding-left: 2%;
+    padding-right: 2%;
 }
