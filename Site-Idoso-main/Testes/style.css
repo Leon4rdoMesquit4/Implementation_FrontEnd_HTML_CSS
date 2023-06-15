@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .aba{
     display: flex;
     justify-content: center;
@@ -32,7 +38,7 @@ div.qw{
 }
 
 div.video{
-    width: 100vw;
+    width: 99.7vw;
     background-color: rgb(217, 217, 217);
     margin: 0 -3.05vw;
     padding: 1%;
@@ -54,7 +60,7 @@ div.video > iframe{
 }
 
 div.video2{
-    width: 100vw;
+    width: 99.7vw;
     background-color: rgb(216, 60, 60);
     margin: 0 -3.05vw;
     display: flex;
