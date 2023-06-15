@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aba{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.ada{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+}
+.aba2{
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+}
+
+div.qw{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.imagem3{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.imagem3:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+div.video{
+    width: 99.7vw;
+    background-color: rgb(217, 217, 217);
+    margin: 0 -3.05vw;
+    padding: 1%;
+    padding-left: 2%;
+    padding-bottom: 49%;
+    position: relative;
+    
+}
+
+div.video > iframe{
+    position: absolute;
+    
+    left: 5.5%;
+    top: 5.5%;
+    
+    width: 90%;
+    height: 90%;
+    
+}
+
+div.video2{
+    width: 99.7vw;
+    background-color: rgb(216, 60, 60);
+    margin: 0 -3.05vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+div.b{
+    padding-top: 4%;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.b{
+    border-radius: 20px;
+    box-shadow: 2px -2px 10px 5px rgba(0, 0, 0, 0.1);
+    width: 50%;
+}
+
+
+.myButton {
+	background:linear-gradient(to bottom, #09d03e 5%, #09d03e 100%);
+	background-color:#1dcf4d;
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 5px #193b14;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #09d03e 5%, #09d03e 100%);
+	background-color:#6abf39;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
